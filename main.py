@@ -31,7 +31,7 @@ if missing:
 # Vehicle Manager
 # =========================
 vehicle_manager = VehicleManager(
-    region=3,  # North America
+    region=5,  # Aus
     brand=1,   # KIA
     username=USERNAME,
     password=PASSWORD,
