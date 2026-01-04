@@ -165,12 +165,11 @@ def start_climate():
         vehicle_id = get_vehicle_id()
 
         climate_options = ClimateRequestOptions(
-            set_temp=72,
             duration=10
         )
 
         result = vehicle_manager.start_climate(vehicle_id, climate_options)
-
+        
         return jsonify({
             "status": "climate_started",
             "result": result
